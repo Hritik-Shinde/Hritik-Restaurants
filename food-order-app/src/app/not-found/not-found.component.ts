@@ -1,0 +1,22 @@
+import { Component, OnInit ,Input} from '@angular/core';
+
+@Component({
+  selector: 'app-not-found',
+  templateUrl: './not-found.component.html',
+  styleUrls: ['./not-found.component.css']
+})
+export class NotFoundComponent implements OnInit {
+  ngOnInit(): void {
+
+  }
+
+  @Input() visible:boolean = false;
+  @Input() notFoundMessage:string = "Not found";
+  @Input() resetLinkTest:string = "Reset";
+  @Input() resetLinkRouter:String ="/";
+
+  constructor(){
+    
+  }
+
+}

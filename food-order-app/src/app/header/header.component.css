@@ -1,0 +1,28 @@
+header{
+    background-color: whitesmoke;
+    padding: 0px;
+    border-bottom: 1px solid red;
+}
+a{
+    color: red;
+}
+a:hover{
+    background-color: red;
+    color: white;
+}
+.container{
+    margin: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    padding: 18px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+}
+nav ul li a{
+    padding: 18px;
+    display: inline-block;
+}
